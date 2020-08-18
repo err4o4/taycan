@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ranges",
+  "info": {
+    "name": "range"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "model": {
+      "type": "string"
+    },
+    "drivingProfile_city": {
+      "type": "integer"
+    },
+    "drivingProfile_countryRoad": {
+      "type": "integer"
+    },
+    "drivingProfile_highway": {
+      "type": "integer"
+    },
+    "temperature_value": {
+      "type": "integer"
+    },
+    "airConditioner": {
+      "type": "string"
+    },
+    "rimSelection": {
+      "type": "string"
+    },
+    "optionalEquipment_performancePlusBattery": {
+      "type": "string"
+    },
+    "optionalEquipment_rangeBooster": {
+      "type": "string"
+    },
+    "optionalEquipment_allSeasonRims": {
+      "type": "string"
+    },
+    "range": {
+      "type": "integer"
+    }
+  }
+}
